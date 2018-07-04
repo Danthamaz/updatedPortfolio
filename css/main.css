@@ -167,9 +167,9 @@ h3 {
   text-shadow: 2px 2px black;
 }
 #contact {
-  font-family: Oswald;
+    font-family: "IM Fell English SC", serif;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   margin: 5px 0;
   padding: 0;
