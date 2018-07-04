@@ -52,6 +52,7 @@ h3 {
   width: 410px;
   float: right;
   margin-top: 20px;
+  z-index: 1;
 }
 #logo a {
   color: #fff;
