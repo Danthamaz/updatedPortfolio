@@ -60,7 +60,7 @@ h3 {
   font-size: 30px;
   margin-top: 20px;
   color: #fff;
-  font-family: "Wellfleet";
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
 }
 #nav ul {
@@ -80,7 +80,7 @@ h3 {
   opacity: 0.6;
   font-size: 16px;
   text-decoration: none;
-  font-family: "Wellfleet";
+  font-family: "IM Fell English SC", serif;
 }
 #nav li a.active {
   color: #fff;
@@ -100,16 +100,16 @@ h3 {
 }
 
 .author_name_white {
-  font-family: "Wellfleet";
+  font-family: "IM Fell English SC", serif;
   margin: 70px 0 0 75px;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
 }
 .author_name_gray {
-  font-family: "Wellfleet";
+  font-family: "IM Fell English SC", serif;
   margin: 70px 0 0 75px;
   color: #94a4a4;
-  font-size: 20px;
+  font-size: 16px;
 }
 .quotes_container {
   width: 800px;
@@ -145,8 +145,8 @@ h3 {
 #slide3 {
   background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
   color: #fff;
-  text-shadow: 2px 2px #0E426C;
-  
+  text-shadow: 2px 2px #0e426c;
+
   height: 600px;
   padding: 170px 0 0 0;
   background-size: cover;
@@ -158,13 +158,13 @@ h3 {
   padding: 200px 0;
 }
 #slide5 {
-  background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+  background: url(../img/slide5-mobile.jpg) 50% 0 no-repeat fixed;
   height: 200px;
   margin: 0 auto;
   padding: 250px 0;
   color: #fff;
   background-size: cover;
-  text-shadow: 2px 2px #0E426C;
+  text-shadow: 2px 2px black;
 }
 #contact {
   font-family: Oswald;
@@ -201,7 +201,7 @@ h3 {
 }
 #copyright {
   color: #fff;
-  font-family: "Wellfleet";
+  font-family: "IM Fell English SC", serif;
   font-size: 18px;
   margin-top: 200px;
   text-align: center;
@@ -209,4 +209,18 @@ h3 {
 #copyright a {
   text-decoration: none;
   color: #fff;
+}
+.quotes-slide-5 {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: right;
+  margin: 50px auto;
+}
+.author_name_white_slide5 {
+  font-family: "IM Fell English SC", serif;
+  margin: 70px 0 0 75px;
+  color: #fff;
+  font-size: 16px;
+  text-align: right;
 }
