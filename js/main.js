@@ -1,11 +1,6 @@
 $(document).ready(function() {
   $("a[href*=#]").each(function() {
-    if (
-      location.pathname.replace(/^\//, "") ==
-        this.pathname.replace(/^\//, "") ||
-      location.hostname == this.hostname ||
-      this.hash.replace(/#/, "")
-    ) {
+    if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") || location.hostname == this.hostname || this.hash.replace(/#/, "")) {
       var $targetId = $(this.hash),
         $targetAnchor = $("[name=" + this.hash.slice(1) + "]");
       var $target = $targetId.length
@@ -28,12 +23,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $("a[href*=#]").each(function() {
-    if (
-      location.pathname.replace(/^\//, "") ==
-        this.pathname.replace(/^\//, "") &&
-      location.hostname == this.hostname &&
-      this.hash.replace(/#/, "")
-    ) {
+    if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname && this.hash.replace(/#/, "")) {
       var $targetId = $(this.hash),
         $targetAnchor = $("[name=" + this.hash.slice(1) + "]");
       var $target = $targetId.length
@@ -53,4 +43,3 @@ $(document).ready(function() {
     }
   });
 });
-
