@@ -58,7 +58,7 @@ h3 {
   color: #fff;
   text-decoration: none;
   float: left;
-  font-size: 30px;
+  font-size: 35px;
   margin-top: 20px;
   color: #fff;
   font-family: 'Playfair Display', serif;
@@ -79,7 +79,7 @@ h3 {
 #nav li a {
   color: #fff;
   opacity: 0.6;
-  font-size: 16px;
+  font-size: 20px;
   text-decoration: none;
   font-family: "IM Fell English SC", serif;
 }
@@ -168,7 +168,7 @@ h3 {
   text-shadow: 2px 2px black;
 }
 #contact {
-    font-family: "IM Fell English SC", serif;
+  font-family: "IM Fell English SC", serif;
   font-weight: normal;
   font-size: 20px;
   text-align: center;
@@ -188,7 +188,7 @@ h3 {
   font-size: 25px;
   text-align: center;
 }
-.grid-item:hover {
+.grid-item img:hover {
   /* Style for hovering images */
   opacity: 0.6; /* Image fades out from mouse hover */
 }
