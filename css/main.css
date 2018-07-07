@@ -194,7 +194,6 @@ h3 {
 }
 .grid-item img {
   width: 100%;
-  padding: 15px; /* resets padding (previously modified by img) */
 }
 #slide4-text {
   font-size: 25px;
