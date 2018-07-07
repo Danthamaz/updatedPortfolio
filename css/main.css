@@ -98,6 +98,7 @@ h3 {
   font-size: 30px;
   text-align: left;
   margin: 50px auto;
+  top: 20px;
 }
 
 .author_name_white {
@@ -224,4 +225,9 @@ h3 {
   color: #fff;
   font-size: 16px;
   text-align: right;
+}
+.content-slide3 {
+  margin: 0 auto;
+  width: 960px;
+  padding-top: 200px;
 }
