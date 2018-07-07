@@ -156,7 +156,8 @@ h3 {
   background-color: #fff;
   color: #333333;
   height: 800px;
-  padding: 200px 0;
+  padding: 168px 0px 200px 0px;
+
 }
 #slide5 {
   background: url(../img/slide5-mobile.jpg) 50% 0 no-repeat fixed;
