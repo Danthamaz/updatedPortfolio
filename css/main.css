@@ -146,7 +146,7 @@ h3 {
 #slide3 {
   background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
   color: #fff;
-  text-shadow: 2px 2px #0e426c;
+  text-shadow: 1px 1px black;
 
   height: 600px;
   padding: 170px 0 0 0;
